@@ -1,0 +1,16 @@
+.product-image-zoom {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background: white;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    max-height: 400px;
+    object-fit: contain;
+    cursor: zoom-in;
+    transition: all 0.3s ease;
+}
+
+.product-image-zoom:hover {
+    transform: scale(1.02);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
